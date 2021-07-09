@@ -11,16 +11,16 @@ namespace StackAndQueue
             stack.Push(70);
             stack.Push(30);
             stack.Push(53);
+            stack.display();
             Console.WriteLine("Stack is created and elements are pushed");
             stack.Peek();
             stack.Pop();
-            stack.Peek();
-            stack.Pop();
-            stack.Peek();
-            stack.Pop();
-            stack.Peek();
-            stack.Pop();
-
+            Console.WriteLine("Queue Implementation");
+            Queue<int> node = new Queue<int>();
+            node.Enqueue(70);
+            node.Enqueue(30);
+            node.Enqueue(58);
+            node.display();
         }
     }
 }

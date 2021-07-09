@@ -67,6 +67,7 @@ namespace StackAndQueue
                 while(temp!=null)
                 {
                     Console.WriteLine("{0}",temp.value);
+                    temp = temp.Next;
                 }
             }
         }
