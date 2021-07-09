@@ -21,6 +21,9 @@ namespace StackAndQueue
             node.Enqueue(30);
             node.Enqueue(58);
             node.display();
+            node.Dequeue();
+            Console.WriteLine("Queue after deleting");
+            node.display();
         }
     }
 }
